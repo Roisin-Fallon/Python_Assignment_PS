@@ -2,9 +2,9 @@
 Roisin Fallon 20 Feb 2019
 
 Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number. 
-#$ python sumupto.py 
-# Please enter a positive integer: 10 
-# 55
+$ python sumupto.py 
+Please enter a positive integer: 10 
+55
 
 Adopted from Lecture Material
 '''
