@@ -14,7 +14,7 @@ No - today does not begin with a T.
 Adapted from https://github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py
 '''
 
-import datetime #Import the datetime module 
+import datetime                                    # Import the datetime module 
 if datetime.datetime.now().weekday() in [1, 3]:    # Checks to see if the day is Tuesday or Thursday.
   print("Yes - today begins with a T.")
 else:
