@@ -24,8 +24,8 @@ while True:                                                             # while 
 
 
 sum = 0                                                                 # Declare variable (this keeps track of all the positive numbers being added)      
-while(n > 0):					                                                      # Use while loop to iterate until it reaches 1. 
-      sum += n 				 	                                                   # Add the sum to the number entered by the user 
-      n -= 1 						                                                     # Deduct one from the value entered by the user, and go back to the top of loop.
+while(n > 0):					                                        # Use while loop to iterate until it reaches 1. 
+      sum += n 				 	                                        # Add the sum to the number entered by the user 
+      n -= 1 						                                    # Deduct one from the value entered by the user, and go back to the top of loop.
       
 print("Sum of all positive numbers is ", sum)                           # Displays the result to the user
