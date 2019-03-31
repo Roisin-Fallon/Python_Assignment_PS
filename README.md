@@ -1,12 +1,12 @@
-#Higher Diploma in Data Analytics 
+# Higher Diploma in Data Analytics 
 
-##Module: Programming and Scripting 
+## Module: Programming and Scripting 
 
-###Problem Set: 
+### Problem Set: 
 
  
 
-*This repository contains the 2019 Problem Set for the Programming and Scripting at GMIT. *
+* This repository contains the 2019 Problem Set for the Programming and Scripting at GMIT.*
 
 See instructions here: [https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf]
 
