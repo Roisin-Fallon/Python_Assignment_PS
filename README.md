@@ -8,9 +8,9 @@
 
 This repository contains the 2019 Problem Set for the Programming and Scripting at GMIT.
 
-See instructions here: <a href="https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf">Problem Set Instructions</a>
+___See instructions here:___ <a href="https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf">Problem Set Instructions</a>
 
-__Recommended to download the following before running the program:__
+### Recommended to download the following before running the program:
 
 - anaconda on your device (version 3.7 +) <a href=https://www.anaconda.com/distribution/>Download here</a>
 
@@ -19,7 +19,7 @@ __Recommended to download the following before running the program:__
 - Cmder command line  <a href=https://cmder.net/>Download here</a>
 
 
-__How to access this repository__
+### How to access this repository:
 
 <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/tree/master/Programming%20and%20Scripting>Go to GitHub</a>
 
