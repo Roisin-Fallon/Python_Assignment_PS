@@ -8,7 +8,7 @@
 
 * This repository contains the 2019 Problem Set for the Programming and Scripting at GMIT.*
 
-See instructions here: https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
+See instructions here: <a href="https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf">Problem Set Instructions</a>
 
 
 __Programs recommended to download before running the program:__
@@ -22,7 +22,7 @@ __Programs recommended to download before running the program:__
 
 __How to access this repository__
 
-Go to GitHub https://github.com/Roisin-Fallon/Python_Assignment_PS/tree/master/Programming%20and%20Scripting
+<a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/tree/master/Programming%20and%20Scripting>Go to GitHub</a>
 
 Click the download button and save the zip file to your devise 
 
@@ -31,7 +31,7 @@ Click the download button and save the zip file to your devise
 __File Contents__
 
 
-__Question 1:__
+###Question 1:
 
 This program asks the user to input a positive number and it will return the sum of all positive numbers between 1 and the number the user inputs. Example: If the user entered the number 10 it would return 55 to the user. 
 
@@ -47,8 +47,7 @@ Lecture material from the Programming and Scripting module
 https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 
  
-
-__Question 2:__
+ ###Question 2:
 
 This program is used to determine if the day begins with the letter T (Tuesday or Thursday).   
 
@@ -64,7 +63,7 @@ GitHub //github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py.
 
  
 
-__Question3:__
+###Question3:
 
 A for loop was used in this question, x is a variable that increases by 1 every time it iterates through the loop starting at 1000 and finishing at 10001 (note not 10000). Using the python compiler (link included below), the range had to be modified slightly as the program ran up to 99999 and then ended. On further research I realized that the range(n) is of exclusive nature and hence will not include last number (10000) in the output. To rectify this, I increased 10000 by 1 which gave me a new range of (1000, 10001). 
 
@@ -81,7 +80,7 @@ https://pynative.com/python-range-function/
 
  
 
-__Question 4:__
+###Question 4:
 
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).   
 
@@ -103,7 +102,7 @@ https://stackoverflow.com/questions/33324432/collatz-sequence-python-3
 https://www.jasondavies.com/collatz-graph/ 
 
 
-__Question 5:__
+###Question 5:
 
 Before starting with this problem, it is important to understand what a prime number is. According to Collins dictionary: “a prime number is a whole number greater than 1 that cannot be divided exactly by any whole number except itself and the number 1”.  
 
@@ -122,7 +121,7 @@ https://www.collinsdictionary.com/dictionary/english/prime-number
 
  
 
-__Question6:__
+###Question6:
 
 The user is prompted to enter a sentence and the output will be every second word. 
 
@@ -143,7 +142,7 @@ It was necessary to remove the full stop from the sentence in the example given 
 
  
 
-__Question 7:__
+###Question 7:
 
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).  However, the main difference is this time the user is prompted to enter a floating point number (previous to this it was a positive integer). Math module is imported - sqrt() function is an inbuilt function in Python programming language - returns the square root of any number. The number was rounded to round decimal place as requested in the question.  
 
@@ -162,7 +161,7 @@ https://docs.python.org/2/library/math.html
 Newton’s method https://tour.golang.org/flowcontrol/8 
  
 
-__Question 8:__
+###Question 8:
 
 A module called datetime() is imported as Python does not have its own built in.  The format of the date and time was as follows: 
 
@@ -194,7 +193,7 @@ https://docs.python.org/3.4/library/datetime.html?highlight=weekday
 
 https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
 
-__Question 9:__
+###Question 9:
 sys library is imported this is required to use sys.argv. Argv (argument values) when we run a program using Python it creates a list sys.argv from the values on the command line and the program locates where they are.  
 
 len(sys.argv) function counts the number of arguments that is supplied through the command line. In this case we are looking for length of exactly two. Remember the args.py (script file is the 1st element) and the single argument you want moby_dick.txt is the second element in the list. Thus there should be no further elements in the list.  
@@ -204,7 +203,7 @@ With statement will open the text file (second element) as f.  the readlines() w
 Try and except block helps catch and deal with exceptions. Note this is not in reference to your code syntax rather the name of the text file is incorrect.   
 
  
- __Question 10:__
+ ###Question 10:
 
 mathplotlib.pyplot  was imported to produce the graph (alias of plt) . numpy  was also imported (alias np) for adding the range given in the question. The 3 functions (x, x^2 and 2^x) were plotted on the same graph (see below).   
 
@@ -224,7 +223,8 @@ To this graph I added a number of formatting elements using plt:
 
 -Line Style – color, linewidth and the linestyle were changed to make them more distinct from each other. 
 
-plt.show() pops the figure up onto the screen as seen below.  
+plt.show() pops the figure up onto the screen as seen below.
+
 
 __*References:*__
 
