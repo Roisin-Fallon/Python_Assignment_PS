@@ -6,7 +6,7 @@
 
  
 
-* This repository contains the 2019 Problem Set for the Programming and Scripting at GMIT.*
+This repository contains the 2019 Problem Set for the Programming and Scripting at GMIT.
 
 See instructions here: <a href="https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf">Problem Set Instructions</a>
 
@@ -27,9 +27,11 @@ Click the download button and save the zip file to your devise
 
  
 
-__File Contents__
+##File Contents
+
 
 ### Question 1:
+
 
 
 This program asks the user to input a positive number and it will return the sum of all positive numbers between 1 and the number the user inputs. Example: If the user entered the number 10 it would return 55 to the user. 
@@ -45,7 +47,8 @@ Lecture material from the Programming and Scripting module
 
 https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 
- 
+
+
  ### Question 2:
 
 This program is used to determine if the day begins with the letter T (Tuesday or Thursday).   
@@ -54,13 +57,14 @@ A module called datetime() is imported as Python does not have its own built in.
 
 An if statement was used to solve this problem. Tuesday is allocated the number 1 and Thursday is allocated the number 3, this is on the basis that Monday is 0 and so on up until Sunday which is assigned 6.  datetime.now() gives the current date and time and hence will return the result based on what day the user runs the program.  
 
+
 ### *References:*
 
 Lecture material from the Programming and Scripting module Week 2 
 
 GitHub //github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py.
 
- 
+
 
 ### Question3:
 
@@ -68,8 +72,9 @@ A for loop was used in this question, x is a variable that increases by 1 every 
 
 To determine if the number is divisible by 6 and not by 12 we focus on presence of a remainder.  There should be no remainder when divided by 6 (x % 6 == 0.) There should be a remainder when divided by 12 (x % 12 != 0). To the result I have included a format function to this which includes commas where necessary this improves the readability of the program output e.g. 9,990 instead of 9999. 
  
+ 
 
-*References:*
+### *References:*
 
 https://stackoverflow.com/a/45367591 
 
@@ -90,6 +95,7 @@ Format function was added to ensure the sequence of numbers was printed on the s
 It is important to understand that a collatz sequence will always reach 1 regardless of the natural number the user inputs. The length of the sequence of numbers does vary with the number the user entered.  
 
  
+ 
 ### *Reference:*
 
 https://www.tutorialspoint.com/python3/python3_whatisnew.html
@@ -99,6 +105,7 @@ https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/
 https://stackoverflow.com/questions/33324432/collatz-sequence-python-3
 
 https://www.jasondavies.com/collatz-graph/ 
+
 
 
 ### Question 5:
@@ -132,8 +139,7 @@ Join is used to put the list of words back together in a single string with a sp
 
 It was necessary to remove the full stop from the sentence in the example given in the question. I also removed commas as it is another common punctuation that is often seen in sentences. 
 
- 
-### *References: *
+### *References:*
 
  http://www.pitt.edu/~naraehan/python3/split_join.html
 
@@ -141,7 +147,7 @@ It was necessary to remove the full stop from the sentence in the example given 
 
  
 
-###Question 7:
+### Question 7:
 
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).  However, the main difference is this time the user is prompted to enter a floating point number (previous to this it was a positive integer). Math module is imported - sqrt() function is an inbuilt function in Python programming language - returns the square root of any number. The number was rounded to round decimal place as requested in the question.  
 
@@ -151,7 +157,6 @@ __z -= (z*z - x) / (2*z)__
 
 Newton’s square root method prompts the user to first enter a positive number that you want to know the square root of. It then prompts the user to give an initial estimate (a reasonable estimate is deemed anything between 1 and the number itself). A while loop is then used to calculate the approximate square root (see formula above). The while loop will continue to iterate until the estimate is within 0.1 of the loop. Once this is achieved it exits the loop and prints the statement with the approximate square root.  
  
-
  
 ### *References:*
 
@@ -160,7 +165,8 @@ https://docs.python.org/2/library/math.html
 Newton’s method https://tour.golang.org/flowcontrol/8 
  
 
-###Question 8:
+
+### Question 8:
 
 A module called datetime() is imported as Python does not have its own built in.  The format of the date and time was as follows: 
 
@@ -193,6 +199,8 @@ https://docs.python.org/3.4/library/datetime.html?highlight=weekday
 
 https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
 
+
+
 ### Question 9:
 sys library is imported this is required to use sys.argv. Argv (argument values) when we run a program using Python it creates a list sys.argv from the values on the command line and the program locates where they are.  
 
@@ -202,6 +210,7 @@ With statement will open the text file (second element) as f.  the readlines() w
 
 Try and except block helps catch and deal with exceptions. Note this is not in reference to your code syntax rather the name of the text file is incorrect.   
  
+ 
  ### *References:*
 
 https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files 
@@ -210,6 +219,8 @@ https://realpython.com/python-exceptions/
 
 
  ### Question 10:
+
+
 
 mathplotlib.pyplot  was imported to produce the graph (alias of plt) . numpy  was also imported (alias np) for adding the range given in the question. The 3 functions (x, x^2 and 2^x) were plotted on the same graph (see below).   
 
