@@ -8,7 +8,7 @@
 
 * This repository contains the 2019 Problem Set for the Programming and Scripting at GMIT.*
 
-See instructions here: [https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf]
+See instructions here: https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
 
 **Programs recommended to download before running the program: **
@@ -20,9 +20,9 @@ See instructions here: [https://github.com/ianmcloughlin/problems-pands-2019/raw
 - Cmder command line  
 
 
-**How to access this repository **
+**How to access this repository 
 
-Go to GitHub [https://github.com/Roisin-Fallon/Python_Assignment_PS/tree/master/Programming%20and%20Scripting]
+Go to GitHub https://github.com/Roisin-Fallon/Python_Assignment_PS/tree/master/Programming%20and%20Scripting
 
 Click the download button and save the zip file to your devise 
 
@@ -44,7 +44,7 @@ While loop is used to solve the computation of the sum of the numbers. Each time
 
 Lecture material from the Programming and Scripting module 
 
-[https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response]
+https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 
  
 
@@ -60,7 +60,7 @@ An if statement was used to solve this problem. Tuesday is allocated the number 
 
 Lecture material from the Programming and Scripting module Week 2 
 
-GitHub [//github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py.]
+GitHub //github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py.
 
  
 
@@ -94,13 +94,13 @@ It is important to understand that a collatz sequence will always reach 1 regard
  
 *Reference: *
 
-[ https://www.tutorialspoint.com/python3/python3_whatisnew.htm ]
+https://www.tutorialspoint.com/python3/python3_whatisnew.html
 
-[https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ ]
+https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ 
 
-[https://stackoverflow.com/questions/33324432/collatz-sequence-python-3]
+https://stackoverflow.com/questions/33324432/collatz-sequence-python-3
 
-[https://www.jasondavies.com/collatz-graph/ ]
+https://www.jasondavies.com/collatz-graph/ 
 
 
 **Question 5: **
@@ -116,9 +116,9 @@ Once a valid number has been entered it breaks from there while loop. This numbe
 
  Lecture material for Programming and Scripting  
 
-[https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response]
+https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
 
-[https://www.collinsdictionary.com/dictionary/english/prime-number]
+https://www.collinsdictionary.com/dictionary/english/prime-number
 
  
 
@@ -137,9 +137,9 @@ It was necessary to remove the full stop from the sentence in the example given 
  
 *References: *
 
- [http://www.pitt.edu/~naraehan/python3/split_join.html]
+ http://www.pitt.edu/~naraehan/python3/split_join.html
 
- [https://stackoverflow.com/a/3559576]
+ https://stackoverflow.com/a/3559576
 
  
 
@@ -157,9 +157,9 @@ Newton’s square root method prompts the user to first enter a positive number 
  
 *References: *
 
-[https://docs.python.org/2/library/math.html ]
+https://docs.python.org/2/library/math.html 
 
-Newton’s method [https://tour.golang.org/flowcontrol/8 ]
+Newton’s method https://tour.golang.org/flowcontrol/8 
  
 
 **Question 8: **
@@ -190,8 +190,8 @@ With regards the suffix associated with the date e.g. 10th, an if statement was 
  
 *References: *
 
-[https://docs.python.org/3.4/library/datetime.html?highlight=weekday ]
+https://docs.python.org/3.4/library/datetime.html?highlight=weekday 
 
-[https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior] 
+https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
 
 **Question 9: **
