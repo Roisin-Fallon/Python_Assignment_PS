@@ -225,6 +225,8 @@ To this graph I added a number of formatting elements using plt:
 
 plt.show() pops the figure up onto the screen as seen below.
 
+![Graph](https://user-images.githubusercontent.com/48020027/55295417-c3050800-5404-11e9-84c7-8a961623cbb4.PNG)
+
 
 __*References:*__
 
