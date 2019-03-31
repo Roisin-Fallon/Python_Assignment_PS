@@ -11,7 +11,7 @@
 See instructions here: https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
 
-**Programs recommended to download before running the program: **
+__Programs recommended to download before running the program:__
 
 - anaconda on your device (version 3.7 +) 
 
