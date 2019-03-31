@@ -6,8 +6,7 @@ $ python secondstring.py
 Please enter a sentence: The quick brown fox jumps over the lazy dog. 
 The brown jumps the dog
 
-Adapted from https://stackoverflow.com/a/509295; http://www.pitt.edu/~naraehan/python3/split_join.html
-Adapted to remove full stops and commas https://stackoverflow.com/a/3559576
+Adapted from https://stackoverflow.com/a/509295; http://www.pitt.edu/~naraehan/python3/split_join.html; https://stackoverflow.com/a/3559576
 '''
 
 x = (input('Please enter a sentence: '))                   # Request to user to input a sentence
@@ -21,8 +20,6 @@ everytwo = ' '.join(x.split()[::2])                        # .split() method ret
 
 print(everytwo)                                             # Prints every second word 
 
-# It was necessary to remove the full stop from the sentence in the example given in the question. 
-# I also removed commas from the sentence as it is another common punctuation included in sentences. 
 
 # [start: stop: step] start is what the position to start. In this instance I have entered no value so it will default to position zero.
 # stop refers to what position on the string you want to finish. Again because I want the full string to be included I will use the default value.
