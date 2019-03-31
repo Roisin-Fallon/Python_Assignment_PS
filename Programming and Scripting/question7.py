@@ -13,10 +13,10 @@ while True:                                                                     
     try:
         n =float(input("Please enter a positive floating point number: "))                              # Asks the user to input a positive floating point number
     except ValueError:                                                  
-        print("You have not entered a valid value. Try Again!")                                         # The user has not entered a valid number (e.g. letter). Thus, it prints the following statement.
+        print("You have not entered a valid value. Try Again!")                                         # The user has not entered a valid number (e.g. letter). Thus, it prints the following statement
         continue                                                                                        # The loop starts again, prompts user to enter a positive number
     if n < 0:                                                                                           # If the user inputs a negative number
-        print("Sorry, you cannot get the square root of a negative number. Try again!.")                # Prompts the user that they have entered a negative number 
+        print("Sorry, you cannot get the square root of a negative number. Try again!")                 # Prompts the user that they have entered a negative number 
         continue                                                                                        # The loop starts again, prompts user to enter a positive number
     else:                                                                                               # User has given a valid number 
         break                                                                                           # Break- exits the while loop
@@ -33,6 +33,5 @@ rootof = float(input("Please enter a positive number: "))                       
 estimate = float(input("Please enter a initial estimate: "))                                             # Ask the user for an initial estimate of the square root
 while abs((estimate * estimate) - rootof) > 0.1:                                                         # The while loop is repeated until the square of estimate is within 0.1 of root.
     estimate -= ((estimate * estimate ) - rootof)/ (2 * estimate)                                        # This is Newton's method to improve our estimate 
-print(round(estimate),1)
 print(f"The square root of {rootof} is approx.{estimate}.")                                              # Print the result
 '''
