@@ -67,7 +67,7 @@ GitHub //github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py.
 
 
 
-### Question3:
+### Question 3:
 
  <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question3.py>Click here for solution </a>
  
@@ -134,7 +134,7 @@ https://www.collinsdictionary.com/dictionary/english/prime-number
 
  
 
-### Question6:
+### Question 6:
 
  <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question6.py>Click here for solution </a>
 
@@ -219,13 +219,14 @@ https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
  <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question9.py>Click here for solution </a>
  
  <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/moby_dick.txt>Moby_Dick text</a>
+ 
 sys library is imported this is required to use sys.argv. Argv (argument values) when we run a program using Python it creates a list sys.argv from the values on the command line and the program locates where they are.  
 
 len(sys.argv) function counts the number of arguments that is supplied through the command line. In this case we are looking for length of exactly two. Remember the args.py (script file is the 1st element) and the single argument you want moby_dick.txt is the second element in the list. Thus there should be no further elements in the list.  
 
-With statement will open the text file (second element) as f.  the readlines() will read ever line in the text file and is assigned the variable m. For loop starts at position 0 (the first line in the text); stops at len(m) which is the full length of the document; step refers to increments i.e. if you want every second line it would be 2. 
+With statement will open the text file (second element) as f.  the readlines() will read ever line in the text file and is assigned the variable m. For loop starts at position 0 (the first line in the text); stops at len(m) which is the full length of the document; step refers to increments i.e. if you want every second line it would be 2. To ensure that empty lines would not be included when taking every second line end="" was used and eliminated this problem. 
 
-Try and except block helps catch and deal with exceptions. Note this is not in reference to your code syntax rather the name of the text file is incorrect.   
+Try and except block helps catch and deal with exceptions. Note this is not in reference to your code syntax rather the name of the text file is incorrect or you provided more than a single filename which my code has included statements to return to the user if they make those errors. 
  
  
  ### *References:*
