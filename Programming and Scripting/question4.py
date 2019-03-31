@@ -21,7 +21,6 @@ while True:                                                             # while 
 
     if n < 0:                                                           # If the user inputs a negative number
         print("Sorry, you must enter a positive integer.")              # It will print this statement to tell the user they have not met the requirement to enter a positive number.                                  
-        
         continue                                                        # The loop starts again, prompts user to enter a positive number). 
     else:                                                               # User has given a valid number 
         break                                                           # Break- exit the loop
