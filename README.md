@@ -10,13 +10,13 @@ This repository contains the 2019 Problem Set for the Programming and Scripting 
 
 See instructions here: <a href="https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf">Problem Set Instructions</a>
 
-__Programs recommended to download before running the program:__
+__Recommended to download the following before running the program:__
 
-- anaconda on your device (version 3.7 +) 
+- anaconda on your device (version 3.7 +) <a href=https://www.anaconda.com/distribution/>Download here</a>
 
- - Visual Studio Code 
+ - Visual Studio Code <a href=https://code.visualstudio.com/>Download here</a>
 
-- Cmder command line  
+- Cmder command line  <a href=https://cmder.net/>Download here</a>
 
 
 __How to access this repository__
