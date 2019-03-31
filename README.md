@@ -31,7 +31,7 @@ Click the download button and save the zip file to your devise
 __File Contents__
 
 
-__Question 1: __
+__Question 1:__
 
 This program asks the user to input a positive number and it will return the sum of all positive numbers between 1 and the number the user inputs. Example: If the user entered the number 10 it would return 55 to the user. 
 
@@ -40,7 +40,7 @@ In my solution I tried to cover a number of possible incorrect inputs that a use
 While loop is used to solve the computation of the sum of the numbers. Each time it loops the condition is checked (num>0), if true it adds this num to the sum and it deducts one from the num. It returns back to the top of while loop and checks the condition again. It iterates through the loop until it reaches 1 it displays the result of the print statement to the user.  
 
 
-*References: *
+*References:*
 
 Lecture material from the Programming and Scripting module 
 
@@ -56,7 +56,7 @@ A module called datetime() is imported as Python does not have its own built in.
 
 An if statement was used to solve this problem. Tuesday is allocated the number 1 and Thursday is allocated the number 3, this is on the basis that Monday is 0 and so on up until Sunday which is assigned 6.  datetime.now() gives the current date and time and hence will return the result based on what day the user runs the program.  
 
-*References: *
+*References:*
 
 Lecture material from the Programming and Scripting module Week 2 
 
@@ -71,7 +71,7 @@ A for loop was used in this question, x is a variable that increases by 1 every 
 To determine if the number is divisible by 6 and not by 12 we focus on presence of a remainder.  There should be no remainder when divided by 6 (x % 6 == 0.) There should be a remainder when divided by 12 (x % 12 != 0). To the result I have included a format function to this which includes commas where necessary this improves the readability of the program output e.g. 9,990 instead of 9999. 
  
 
-*References: *
+*References:*
 
 https://stackoverflow.com/a/45367591 
 
@@ -92,7 +92,7 @@ Format function was added to ensure the sequence of numbers was printed on the s
 It is important to understand that a collatz sequence will always reach 1 regardless of the natural number the user inputs. The length of the sequence of numbers does vary with the number the user entered.  
 
  
-*Reference: *
+*Reference:*
 
 https://www.tutorialspoint.com/python3/python3_whatisnew.html
 
@@ -112,7 +112,7 @@ Similar to Question 1, the validity of the user input was tested (Please refer t
 Once a valid number has been entered it breaks from there while loop. This number then enters into a for loop which iterates through the numbers 2 (including 2) up to and including n (user input). It determines if n has a factor i.e. is it divisible by any number other than one and itself, with each loop x increases by 1. If a factor is found it breaks -exits the inner for loop as it does not need to determine all the factors as this not what the algorithm is looking for. The break statement saves time. In keeping with the definition above if we find any other number that is divisible other than it is not a prime number.  Else means that the loop fell through without finding a factor which makes it a prime number!! 
 
 
-*Reference: *
+*Reference:*
 
  Lecture material for Programming and Scripting  
 
@@ -155,7 +155,7 @@ Newton’s square root method prompts the user to first enter a positive number 
  
 
  
-*References: *
+*References:*
 
 https://docs.python.org/2/library/math.html 
 
