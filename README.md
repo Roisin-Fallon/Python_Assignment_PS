@@ -50,7 +50,7 @@ https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-the
 
 
  ### Question 2:
- <a href=>Click here for solution </a>
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question2.py>Click here for solution </a>
 
 This program is used to determine if the day begins with the letter T (Tuesday or Thursday).   
 
@@ -69,6 +69,8 @@ GitHub //github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py.
 
 ### Question3:
 
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question3.py>Click here for solution </a>
+ 
 A for loop was used in this question, x is a variable that increases by 1 every time it iterates through the loop starting at 1000 and finishing at 10001 (note not 10000). Using the python compiler (link included below), the range had to be modified slightly as the program ran up to 99999 and then ended. On further research I realized that the range(n) is of exclusive nature and hence will not include last number (10000) in the output. To rectify this, I increased 10000 by 1 which gave me a new range of (1000, 10001). 
 
 To determine if the number is divisible by 6 and not by 12 we focus on presence of a remainder.  There should be no remainder when divided by 6 (x % 6 == 0.) There should be a remainder when divided by 12 (x % 12 != 0). To the result I have included a format function to this which includes commas where necessary this improves the readability of the program output e.g. 9,990 instead of 9999. 
@@ -87,6 +89,8 @@ https://pynative.com/python-range-function/
 
 ### Question 4:
 
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question4.py>Click here for solution </a>
+ 
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).   
 
 Define function that will take in a positive integer(n) and will be used to calculate the collatz sequence. The collatz algorithm consists of a While loop with nested if and else statement. While loop relates to the condition that the calculation nested within will be performed as long as n is not equal to 1, hence it will continue to loop until the condition fails. If statement checks if the number is even and performs a calculation accordingly. If it is not even the number has to be odd hence else statement and perform a separate calculation for off numbers.  Each time the while loop condition is checked.  
@@ -111,6 +115,8 @@ https://www.jasondavies.com/collatz-graph/
 
 ### Question 5:
 
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question5.py>Click here for solution </a>
+ 
 Before starting with this problem, it is important to understand what a prime number is. According to Collins dictionary: “a prime number is a whole number greater than 1 that cannot be divided exactly by any whole number except itself and the number 1”.  
 
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).  Upon running the code, I observed an additional statement was needed to deal with the number 1, as it initially it returned “1 is a prime number”.  To rectify this an if statement was added.  
@@ -129,6 +135,8 @@ https://www.collinsdictionary.com/dictionary/english/prime-number
  
 
 ### Question6:
+
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question6.py>Click here for solution </a>
 
 The user is prompted to enter a sentence and the output will be every second word. 
 
@@ -150,6 +158,8 @@ It was necessary to remove the full stop from the sentence in the example given 
 
 ### Question 7:
 
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question7.py>Click here for solution </a>
+
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).  However, the main difference is this time the user is prompted to enter a floating point number (previous to this it was a positive integer). Math module is imported - sqrt() function is an inbuilt function in Python programming language - returns the square root of any number. The number was rounded to round decimal place as requested in the question.  
 
 Within this solution I have included an approach that was referred to in the Programming and Scripting module lectures which uses a Newtons method to determine the square root (see below), where z refers to users estimate and x refers to the number we are look for the square root of.  
@@ -168,6 +178,8 @@ Newton’s method https://tour.golang.org/flowcontrol/8
 
 
 ### Question 8:
+
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question8.py>Click here for solution </a>
 
 A module called datetime() is imported as Python does not have its own built in.  The format of the date and time was as follows: 
 
@@ -203,6 +215,10 @@ https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
 
 
 ### Question 9:
+
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question9.py>Click here for solution </a>
+ 
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/moby_dick.txt>Moby_Dick text</a>
 sys library is imported this is required to use sys.argv. Argv (argument values) when we run a program using Python it creates a list sys.argv from the values on the command line and the program locates where they are.  
 
 len(sys.argv) function counts the number of arguments that is supplied through the command line. In this case we are looking for length of exactly two. Remember the args.py (script file is the 1st element) and the single argument you want moby_dick.txt is the second element in the list. Thus there should be no further elements in the list.  
@@ -221,7 +237,7 @@ https://realpython.com/python-exceptions/
 
  ### Question 10:
 
-
+ <a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/question10.py>Click here for solution </a>
 
 mathplotlib.pyplot  was imported to produce the graph (alias of plt) . numpy  was also imported (alias np) for adding the range given in the question. The 3 functions (x, x^2 and 2^x) were plotted on the same graph (see below).   
 
