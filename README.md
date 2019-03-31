@@ -27,12 +27,12 @@ Click the download button and save the zip file to your devise
 
  
 
-##File Contents
+## File Contents
 
 
 ### Question 1:
 
-
+<a href=https://github.com/Roisin-Fallon/Python_Assignment_PS/blob/master/Programming%20and%20Scripting/questions1.py>Click here for solution </a>
 
 This program asks the user to input a positive number and it will return the sum of all positive numbers between 1 and the number the user inputs. Example: If the user entered the number 10 it would return 55 to the user. 
 
@@ -50,6 +50,7 @@ https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-the
 
 
  ### Question 2:
+ <a href=>Click here for solution </a>
 
 This program is used to determine if the day begins with the letter T (Tuesday or Thursday).   
 
@@ -226,19 +227,19 @@ mathplotlib.pyplot  was imported to produce the graph (alias of plt) . numpy  wa
 
 To this graph I added a number of formatting elements using plt: 
 
--Title of graph 
+- Title of graph 
 
--Label of both the y and x axis  
+- Label of both the y and x axis  
 
--Legend - to distinguish the functions from each other  
+- Legend - to distinguish the functions from each other  
 
--Grid to the background which helped pinpoint the point of intersection of the 3 functions 
+- Grid to the background which helped pinpoint the point of intersection of the 3 functions 
+ 
+- Point of intersection – where the functions met y1, y2 and y2,y3 
 
--Point of intersection – where the functions met y1, y2 and y2,y3 
+- Margin - I changed the margin to 0 , by default matplotlib adds a 5% margin on all sides of the axes 
 
--Margin - I changed the margin to 0 , by default matplotlib adds a 5% margin on all sides of the axes 
-
--Line Style – color, linewidth and the linestyle were changed to make them more distinct from each other. 
+- Line Style – color, linewidth and the linestyle were changed to make them more distinct from each other. 
 
 plt.show() pops the figure up onto the screen as seen below.
 
