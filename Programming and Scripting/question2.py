@@ -11,7 +11,7 @@ An example of running it on a Wednesday is as follows.
 $ python begins-with-t.py 
 No - today does not begin with a T.
 
-Adapted from https://github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py
+Adapted from Lecture Material: https://github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py
 '''
 
 import datetime                                    # Import the datetime module 
