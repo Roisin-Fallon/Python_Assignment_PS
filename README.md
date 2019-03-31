@@ -20,7 +20,7 @@ __Programs recommended to download before running the program:__
 - Cmder command line  
 
 
-**How to access this repository 
+__How to access this repository__
 
 Go to GitHub https://github.com/Roisin-Fallon/Python_Assignment_PS/tree/master/Programming%20and%20Scripting
 
@@ -28,10 +28,10 @@ Click the download button and save the zip file to your devise
 
  
 
-**File Contents  **
+__File Contents__
 
 
-**Question 1: **
+__Question 1: __
 
 This program asks the user to input a positive number and it will return the sum of all positive numbers between 1 and the number the user inputs. Example: If the user entered the number 10 it would return 55 to the user. 
 
@@ -48,7 +48,7 @@ https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-the
 
  
 
-**Question 2: **
+__Question 2:__
 
 This program is used to determine if the day begins with the letter T (Tuesday or Thursday).   
 
@@ -64,7 +64,7 @@ GitHub //github.com/ianmcloughlin/python-tuesday/blob/master/tuesday.py.
 
  
 
-**Question3: **
+__Question3:__
 
 A for loop was used in this question, x is a variable that increases by 1 every time it iterates through the loop starting at 1000 and finishing at 10001 (note not 10000). Using the python compiler (link included below), the range had to be modified slightly as the program ran up to 99999 and then ended. On further research I realized that the range(n) is of exclusive nature and hence will not include last number (10000) in the output. To rectify this, I increased 10000 by 1 which gave me a new range of (1000, 10001). 
 
@@ -81,7 +81,7 @@ https://pynative.com/python-range-function/
 
  
 
-**Question 4: **
+__Question 4:__
 
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).   
 
@@ -103,7 +103,7 @@ https://stackoverflow.com/questions/33324432/collatz-sequence-python-3
 https://www.jasondavies.com/collatz-graph/ 
 
 
-**Question 5: **
+__Question 5:__
 
 Before starting with this problem, it is important to understand what a prime number is. According to Collins dictionary: “a prime number is a whole number greater than 1 that cannot be divided exactly by any whole number except itself and the number 1”.  
 
@@ -122,7 +122,7 @@ https://www.collinsdictionary.com/dictionary/english/prime-number
 
  
 
-**Question6: **
+__Question6:__
 
 The user is prompted to enter a sentence and the output will be every second word. 
 
@@ -143,13 +143,13 @@ It was necessary to remove the full stop from the sentence in the example given 
 
  
 
-**Question 7: **
+__Question 7:__
 
 Similar to Question 1, the validity of the user input was tested (Please refer to Question 1 for further explanation).  However, the main difference is this time the user is prompted to enter a floating point number (previous to this it was a positive integer). Math module is imported - sqrt() function is an inbuilt function in Python programming language - returns the square root of any number. The number was rounded to round decimal place as requested in the question.  
 
 Within this solution I have included an approach that was referred to in the Programming and Scripting module lectures which uses a Newtons method to determine the square root (see below), where z refers to users estimate and x refers to the number we are look for the square root of.  
 
-**z -= (z*z - x) / (2*z) **
+__z -= (z*z - x) / (2*z)__
 
 Newton’s square root method prompts the user to first enter a positive number that you want to know the square root of. It then prompts the user to give an initial estimate (a reasonable estimate is deemed anything between 1 and the number itself). A while loop is then used to calculate the approximate square root (see formula above). The while loop will continue to iterate until the estimate is within 0.1 of the loop. Once this is achieved it exits the loop and prints the statement with the approximate square root.  
  
@@ -162,7 +162,7 @@ https://docs.python.org/2/library/math.html
 Newton’s method https://tour.golang.org/flowcontrol/8 
  
 
-**Question 8: **
+__Question 8:__
 
 A module called datetime() is imported as Python does not have its own built in.  The format of the date and time was as follows: 
 
@@ -194,4 +194,4 @@ https://docs.python.org/3.4/library/datetime.html?highlight=weekday
 
 https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
 
-**Question 9: **
+__Question 9: __
