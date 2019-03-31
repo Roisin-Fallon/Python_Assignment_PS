@@ -194,4 +194,44 @@ https://docs.python.org/3.4/library/datetime.html?highlight=weekday
 
 https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
 
-__Question 9: __
+__Question 9:__
+sys library is imported this is required to use sys.argv. Argv (argument values) when we run a program using Python it creates a list sys.argv from the values on the command line and the program locates where they are.  
+
+len(sys.argv) function counts the number of arguments that is supplied through the command line. In this case we are looking for length of exactly two. Remember the args.py (script file is the 1st element) and the single argument you want moby_dick.txt is the second element in the list. Thus there should be no further elements in the list.  
+
+With statement will open the text file (second element) as f.  the readlines() will read ever line in the text file and is assigned the variable m. For loop starts at position 0 (the first line in the text); stops at len(m) which is the full length of the document; step refers to increments i.e. if you want every second line it would be 2. 
+
+Try and except block helps catch and deal with exceptions. Note this is not in reference to your code syntax rather the name of the text file is incorrect.   
+
+ 
+ __Question 10:__
+
+mathplotlib.pyplot  was imported to produce the graph (alias of plt) . numpy  was also imported (alias np) for adding the range given in the question. The 3 functions (x, x^2 and 2^x) were plotted on the same graph (see below).   
+
+To this graph I added a number of formatting elements using plt: 
+
+-Title of graph 
+
+-Label of both the y and x axis  
+
+-Legend - to distinguish the functions from each other  
+
+-Grid to the background which helped pinpoint the point of intersection of the 3 functions 
+
+-Point of intersection – where the functions met y1, y2 and y2,y3 
+
+-Margin - I changed the margin to 0 , by default matplotlib adds a 5% margin on all sides of the axes 
+
+-Line Style – color, linewidth and the linestyle were changed to make them more distinct from each other. 
+
+plt.show() pops the figure up onto the screen as seen below.  
+
+__*References:*__
+
+ https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py 
+
+ https://matplotlib.org/2.0.2/api/lines_api.html 
+
+https://matplotlib.org/gallery/lines_bars_and_markers/line_styles_reference.html 
+
+https://stackoverflow.com/a/3536
